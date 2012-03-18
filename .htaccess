@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REMOTE_ADDR} ^172\.16\.\d+\.\d+
+RewriteRule ^(.*)$ redirect/index.php [L]
