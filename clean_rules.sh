@@ -2,7 +2,7 @@
 #
 # Delete rules in this format:
 # -A CLIENTS -m mac --mac-source 00:11:22:33:44:55 -m comment --comment "1296842113" -j ACCEPT
-# if timestamp, saved as comment, is exired.
+# if timestamp, saved as comment, is expired.
 
 PATH=/bin:/sbin:/usr/bin:/usr/sbin
 
